@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Free Pani | Water Paid By Ads (Feastables Style)</title>
+<!-- Load Tailwind CSS -->
+<script src="https://cdn.tailwindcss.com"></script>
+<!-- Load Lucide Icons for aesthetic elements -->
+<script src="https://unpkg.com/lucide@latest"></script>
+<style>
+/* Custom font import for a modern, bold look */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@900;700;500&display=swap');
+
+body {
+font-family: 'Inter', sans-serif;
+background-color: #ffffff; /* Stark white background */
+color: #1f2937;
+}
+
+.icon-lg {
+width: 40px;
+height: 40px;
+}
+
+/* Define primary Feastables-style blue */
+.color-primary { color: #007FFF; }
+.bg-primary { background-color: #007FFF; }
+.hover-bg-primary:hover { background-color: #0056b3; }
+.border-primary { border-color: #007FFF; }
+
+/* Define secondary Feastables-style yellow/gold */
+.color-secondary { color: #FFD700; }
+.bg-secondary { background-color: #FFD700; }
+.hover-bg-secondary:hover { background-color: #ccaa00; }
+
+/* Custom shadow for pop effect */
+.pop-shadow {
+box-shadow: 8px 8px 0px 0px #1f2937; /* Dark shadow offset */
+}
+.pop-shadow:hover {
+box-shadow: 4px 4px 0px 0px #1f2937;
+transform: translate(4px, 4px); /* Shift on hover */
+}
+
+</style>
+</head>
+<body class="antialiased">
+
+<!-- Header & Navigation -->
+<header class="sticky top-0 z-50 bg-white shadow-lg border-b-4 border-gray-900">
+<div class="container mx-auto px-4 sm:px-6 lg:px-8 py-4 flex justify-between items-center">
+<!-- Logo/Company Name -->
+<a href="#" class="text-3xl font-black color-primary tracking-widest uppercase">
+Free Pani
+</a>
+
+<!-- Navigation Links (Hidden on mobile, shown on desktop) -->
+<nav class="hidden md:flex space-x-8 text-gray-800 font-bold">
+<a href="#features" class="hover:color-primary transition duration-150">Why Us?</a>
+<a href="#mission" class="hover:color-primary transition duration-150">Impact</a>
+<a href="#advertise" class="hover:color-primary transition duration-150">Advertise</a>
+<a href="#launchpad" class="hover:color-primary transition duration-150">Launch</a>
+<a href="#contact" class="hover:color-primary transition duration-150">FREE Water</a>
+</nav>
+
+<!-- CTA Button -->
+<a href="#advertise" class="px-6 py-2 bg-secondary text-gray-900 font-black rounded-lg shadow-xl hover-bg-secondary transition duration-300 hidden sm:block pop-shadow">
+ADVERTISE NOW!
+</a>
+
+<!-- Mobile Menu Button (Hamburger) - Placeholder -->
+<button class="md:hidden text-gray-900 hover:color-primary">
+<i data-lucide="menu" class="icon-lg"></i>
+</button>
+</div>
+</header>
+
+<!-- Hero Section -->
+<section id="hero" class="bg-gray-900 py-24 sm:py-40 text-white shadow-2xl">
+<div class="container mx-auto px-4 text-center">
+<h1 class="text-6xl sm:text-8xl font-black mb-4 leading-none uppercase tracking-tighter">
+<span class="color-secondary">FREE WATER.</span> ZERO PLASTIC.
+</h1>
+<p class="text-xl sm:text-3xl mb-10 font-bold max-w-4xl mx-auto color-primary">
+The revolutionary ad platform where your drink funds clean water wells.
+</p>
+<div class="space-x-6">
+<a href="#advertise" class="px-10 py-4 bg-secondary text-gray-900 font-black rounded-xl shadow-2xl hover-bg-secondary transition duration-300 pop-shadow inline-block">
+GET YOUR BRAND SEEN!
+</a>
+<a href="#contact" class="px-10 py-4 bg-primary text-white font-black rounded-xl border-4 border-white hover-bg-primary transition duration-300 inline-block pop-shadow">
+GET FREE PANI!
+</a>
+</div>
+</div>
+</section>
+
+<!-- Core Pillars / Features Section -->
+<section id="features" class="py-16 sm:py-24 bg-white">
+<div class="container mx-auto px-4">
+<h2 class="text-5xl font-black text-center mb-16 text-gray-900 uppercase">THE FREE PANI ADVANTAGE</h2>
+
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+
+<!-- Pillar 1: Zero Cost -->
+<div class="p-6 rounded-xl border-4 border-gray-900 pop-shadow transition duration-500 bg-white">
+<i data-lucide="wallet" class="icon-lg color-primary mb-4"></i>
+<h3 class="text-2xl font-black mb-3 text-gray-900 uppercase">ZERO COST</h3>
+<p class="text-gray-700 font-medium">Why pay 2000x the tap water price? Our model makes premium water completely free for the consumer.</p>
+</div>
+
+<!-- Pillar 2: Eco Friendly -->
+<div class="p-6 rounded-xl border-4 border-gray-900 pop-shadow transition duration-500 bg-white">
+<i data-lucide="leaf" class="icon-lg text-emerald-600 mb-4"></i>
+<h3 class="text-2xl font-black mb-3 text-gray-900 uppercase">NO PLASTIC</h3>
+<p class="text-gray-700 font-medium">Aluminum and paper cartons only. We're committed to a net-positive environmental impact by 2030.</p>
+</div>
+
+<!-- Pillar 3: Save Lives -->
+<div class="p-6 rounded-xl border-4 border-gray-900 pop-shadow transition duration-500 bg-white">
+<i data-lucide="heart" class="icon-lg text-red-600 mb-4"></i>
+<h3 class="text-2xl font-black mb-3 text-gray-900 uppercase">SAVE LIVES</h3>
+<p class="text-gray-700 font-medium">10 cents from every single unit is donated to fund clean water wells in East Africa. Every drink makes an impact.</p>
+</div>
+
+<!-- Pillar 4: High Visibility -->
+<div class="p-6 rounded-xl border-4 border-gray-900 pop-shadow transition duration-500 bg-white">
+<i data-lucide="eye" class="icon-lg text-secondary mb-4"></i>
+<h3 class="text-2xl font-black mb-3 text-gray-900 uppercase">HIGH VISIBILITY</h3>
+<p class="text-gray-700 font-medium">Your brand is literally in the consumer's hand for up to 30 minutes. Unskippable, memorable advertising.</p>
+</div>
+</div>
+</div>
+</section>
+
+<!-- Mission and Impact Section -->
+<section id="mission" class="py-16 sm:py-24 bg-gray-900 text-white">
+<div class="container mx-auto px-4 max-w-4xl text-center">
+<h2 class="text-5xl font-black mb-12 uppercase color-secondary">Our Impact Goals</h2>
+
+<div class="grid grid-cols-1 sm:grid-cols-3 gap-8 p-6 bg-gray-800 rounded-xl border-4 border-primary shadow-xl">
+
+<div class="border-b sm:border-b-0 sm:border-r border-gray-700 pb-4 sm:pb-0 sm:pr-4">
+<p class="text-6xl font-black color-primary leading-none">10¢</p>
+<p class="text-gray-400 font-bold mt-2">DONATED PER UNIT</p>
+</div>
+
+<div class="border-b sm:border-b-0 sm:border-r border-gray-700 pb-4 sm:pb-0 sm:pr-4">
+<p class="text-6xl font-black color-secondary leading-none">150</p>
+<p class="text-gray-400 font-bold mt-2">UNITS PROVIDE WATER FOR LIFE</p>
+</div>
+
+<div>
+<p class="text-6xl font-black text-red-500 leading-none">$1B</p>
+<p class="text-gray-400 font-bold mt-2">ANNUAL DONATION POTENTIAL</p>
+</div>
+</div>
+
+<p class="text-xl text-gray-300 font-medium mt-10">
+We partner with **WellAware** to build clean water infrastructure in East Africa. Our mission is to transform a simple beverage into a powerful force for global good.
+</p>
+
+<!-- Added Owner Contact Information (Umar Nawab) -->
+<div class="mt-12 p-6 border-4 border-secondary bg-gray-800 rounded-xl pop-shadow transition duration-300 inline-block w-full sm:w-auto">
+<h3 class="text-2xl font-black mb-2 uppercase color-secondary">Connect with the Owner</h3>
+<p class="text-lg font-bold text-white">Umar Nawab</p>
+<p class="text-lg font-bold color-primary">Call or WhatsApp: +91 6362979941</p>
+</div>
+<!-- End Owner Contact Information -->
+</div>
+</section>
+
+<!-- Advertise Section -->
+<section id="advertise" class="py-20 bg-primary text-white">
+<div class="container mx-auto px-4 text-center max-w-4xl">
+<h2 class="text-5xl font-black mb-4 uppercase color-secondary">ADVERTISING THAT MATTERS</h2>
+<p class="text-xl mb-8 font-medium">
+Reach thousands of consumers with highly visible, memorable, and positively associated ad placement. Your investment doesn't just market your product—it directly funds clean water initiatives.
+</p>
+<a href="#contact" class="px-10 py-4 bg-secondary text-gray-900 font-black rounded-xl shadow-2xl hover-bg-secondary transition duration-300 pop-shadow inline-block">
+CONTACT AD SALES TODAY!
+</a>
+</div>
+</section>
+
+<!-- The Launchpad Section (New for "How to Launch") -->
+<section id="launchpad" class="py-16 sm:py-24 bg-white border-t-4 border-b-4 border-gray-900">
+<div class="container mx-auto px-4 max-w-5xl">
+<h2 class="text-5xl font-black text-center mb-12 text-gray-900 uppercase color-primary">THE LAUNCHPAD: 3 STEPS TO FREE</h2>
+
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+
+<!-- Step 1 -->
+<div class="p-6 border-4 border-gray-900 pop-shadow bg-secondary text-gray-900">
+<p class="text-5xl font-black mb-3">01</p>
+<h3 class="text-2xl font-black mb-3 uppercase">Secure Production</h3>
+<p class="font-medium">Lock in a low-cost, high-volume supplier for your base product (e.g., water source, eco-friendly cartons/aluminum bottles).</p>
+</div>
+
+<!-- Step 2 -->
+<div class="p-6 border-4 border-gray-900 pop-shadow bg-white text-gray-900">
+<p class="text-5xl font-black mb-3 color-primary">02</p>
+<h3 class="text-2xl font-black mb-3 uppercase">Sell the Ads</h3>
+<p class="font-medium">Create a media kit showing your reach/impact. Pre-sell 70-80% of your ad space to cover production and donation costs.</p>
+</div>
+
+<!-- Step 3 -->
+<div class="p-6 border-4 border-gray-900 pop-shadow bg-primary text-white">
+<p class="text-5xl font-black mb-3 color-secondary">03</p>
+<h3 class="text-2xl font-black mb-3 uppercase">Distribute & Scale</h3>
+<p class="font-medium">Launch in a tight geographic area (city/campus). Use the social mission to drive viral organic demand and scale fast.</p>
+</div>
+</div>
+<p class="text-center text-gray-700 font-medium mt-10">
+This ad-supported model requires high volume and tight margins. Consult legal and financial experts before initiating production.
+</p>
+</div>
+</section>
+
+<!-- Subscription/Contact Section -->
+<section id="contact" class="py-20 bg-gray-900 text-white">
+<div class="container mx-auto px-4 text-center max-w-xl">
+<h2 class="text-5xl font-black mb-4 uppercase color-primary">GET FREE PANI®</h2>
+<p class="text-gray-300 mb-8 font-medium">
+Sign up now to be the first to know when we launch in your area and unlock exclusive offers!
+</p>
+
+<!-- Added ID to form for JS handling -->
+<form id="subscription-form" class="space-y-4">
+<input type="text" placeholder="First Name" required class="w-full p-3 rounded-lg bg-gray-700 border-2 border-gray-600 placeholder-gray-400 focus:ring-primary focus:border-primary text-white">
+<input type="text" placeholder="Last Name" required class="w-full p-3 rounded-lg bg-gray-700 border-2 border-gray-600 placeholder-gray-400 focus:ring-primary focus:border-primary text-white">
+<input type="email" placeholder="Email Address" required class="w-full p-3 rounded-lg bg-gray-700 border-2 border-gray-600 placeholder-gray-400 focus:ring-primary focus:border-primary text-white">
+<input type="text" placeholder="City" required class="w-full p-3 rounded-lg bg-gray-700 border-2 border-gray-600 placeholder-gray-400 focus:ring-primary focus:border-primary text-white">
+
+<button type="submit" class="w-full p-3 bg-secondary text-gray-900 font-black rounded-lg shadow-xl hover-bg-secondary transition duration-300 pop-shadow border-4 border-gray-900">
+I WANT FREE WATER!
+</button>
+
+<!-- Message container for form feedback -->
+<div id="form-message" class="pt-2"></div>
+</form>
+</div>
+</section>
+
+<!-- Footer -->
+<footer class="bg-black py-10 text-gray-500">
+<div class="container mx-auto px-4 text-center">
+
+<div class="flex justify-center space-x-6 mb-6">
+<!-- Social media links -->
+<a href="#" class="hover:color-secondary transition duration-200" aria-label="TikTok"><i data-lucide="tiktok" class="w-6 h-6"></i></a>
+<a href="#" class="hover:color-secondary transition duration-200" aria-label="Instagram"><i data-lucide="instagram" class="w-6 h-6"></i></a>
+<a href="#" class="hover:color-secondary transition duration-200" aria-label="Facebook"><i data-lucide="facebook" class="w-6 h-6"></i></a>
+<a href="#" class="hover:color-secondary transition duration-200" aria-label="Twitter"><i data-lucide="twitter" class="w-6 h-6"></i></a>
+<a href="#" class="hover:color-secondary transition duration-200" aria-label="LinkedIn"><i data-lucide="linkedin" class="w-6 h-6"></i></a>
+</div>
+
+<p class="text-sm mb-2 font-bold color-primary">© 2025 FREE PANI® ALL RIGHTS RESERVED</p>
+<p class="text-xs">Water should be free. Join the revolution.</p>
+</div>
+</footer>
+
+<!-- Initialize Lucide Icons and Add Functionality -->
+<script>
+lucide.createIcons();
+
+document.addEventListener('DOMContentLoaded', () => {
+// --- 1. Smooth Scrolling Functionality ---
+const smoothScrollLinks = document.querySelectorAll('a[href^="#"]');
+
+for (const link of smoothScrollLinks) {
+link.addEventListener('click', function (e) {
+e.preventDefault();
+const targetId = this.getAttribute('href');
+
+// Prevent scrolling when href is just '#' (for mock social links)
+if (targetId && targetId !== '#') {
+const targetElement = document.querySelector(targetId);
+if (targetElement) {
+targetElement.scrollIntoView({
+behavior: 'smooth',
+block: 'start'
+});
+}
+}
+});
+}
+
+// --- 2. Form Submission Handling ---
+const form = document.getElementById('subscription-form');
+const messageContainer = document.getElementById('form-message');
+
+if (form) {
+form.addEventListener('submit', function(e) {
+e.preventDefault();
+
+// Display loading/processing message
+messageContainer.innerHTML = '<p class="color-secondary font-black mt-4">PROCESSING SUBSCRIPTION... GET READY!</p>';
+
+// Simulate form submission delay
+setTimeout(() => {
+form.reset();
+// Display success message
+messageContainer.innerHTML = '<p class="text-emerald-400 font-black mt-4">🎉 SUCCESS! YOU\'RE ON THE LIST. SHARE WITH YOUR CREW!</p>';
+}, 1800);
+});
+}
+});
+</script>
+</body>
+</html>
